@@ -9,6 +9,6 @@ router.post('/signup', signup )
 
 router.post('/login', login )
 
-router.get('/logout', logout )
+router.get('/logout', logouta )
 
 export default router;
