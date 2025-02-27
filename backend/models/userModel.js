@@ -23,10 +23,9 @@ const userSchema = new mongoose.Schema({
     profilePic:{
         type: String,
         default: "",
-    }
-
-
-})
+    },
+    
+}, {timeseries: true})
 
 const User = mongoose.model('User', userSchema);
 
